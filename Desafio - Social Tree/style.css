@@ -7,3 +7,57 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.profile-picture {
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+    width: 213px;
+    height: 213px;
+    margin: 120px 101px 0 101px;
+    position: relative;
+}
+
+.profile-picture img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 4.5px;
+}
+
+header a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.link-container {
+    text-align: center;
+    margin: 33px 44px;
+}
+
+.link-container li {
+    display: flex;
+    height: 49px;
+    list-style-type: none;
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+.social-midia {
+    text-align: center;
+    margin-top: 68px;
+}
+
+.social-midia li {
+    display: inline;
+    margin: 0 14.5px;
+}
