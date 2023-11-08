@@ -4,16 +4,26 @@
     box-sizing: border-box;
 }
 
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
 body {
+    background-color: var(--body-bg-color);
     font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 126px;
 }
 
 .profile-picture {
     border-radius: 50%;
-    border: 2px solid #BB99DD;
+    border: 2px solid var(--purple);
     width: 213px;
     height: 213px;
-    margin: 120px 101px 0 101px;
+    margin: auto;
     position: relative;
 }
 
@@ -30,6 +40,7 @@ header a {
     text-align: center;
     margin-top: 15px;
     text-decoration: none;
+    color: var(--purple);
 }
 
 .link-container {
@@ -40,15 +51,18 @@ header a {
 .link-container li {
     display: flex;
     height: 49px;
+    max-width: 326px;
     list-style-type: none;
-    border: 2px solid #BB99DD;
+    border: 2px solid var(--purple);
     border-radius: 4px;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .link-container a {
+    color: var(--purple);
     text-decoration: none;
 }
 
