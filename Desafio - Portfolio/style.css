@@ -143,3 +143,9 @@ body {
     font-size: 12px;
     font-weight: 400;
 }
+
+/* FOOTER */
+
+footer {
+    height: 58px;
+}
