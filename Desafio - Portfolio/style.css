@@ -206,3 +206,10 @@ aside {
     margin: 22px 0 auto 30px;
     font-size: 14px;
 }
+
+.project span {
+    text-decoration: none;
+    display: flex;
+    margin: 27px auto 30px 30px;
+    
+}
