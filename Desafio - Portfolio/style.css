@@ -175,3 +175,34 @@ aside {
     padding-right: 30px;
 }
 
+/* PROJECT CONTAINER */
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+
+.project div{
+    display: inline-block;
+    background-color: var(--bg-cards);
+    width: 461px;
+    height: 186px;
+    margin: 30px 40px 0 0;
+    border-radius: 20px;
+}
+
+.project h2{
+    display: flex;
+    margin: 30px 0 auto 30px;
+    font-size: 16px;
+}
+
+.project img {
+    margin-right: 16px;
+}
+
+.project p {
+    margin: 22px 0 auto 30px;
+    font-size: 14px;
+}
