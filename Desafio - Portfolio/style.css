@@ -16,13 +16,20 @@ body {
     background-color: var(--body-bg-color);
 }
 
+/* ASIDE CONFIGS */
+aside {
+    width: 448px;
+    float: left;
+    margin-bottom: 58px;
+}
+
 /* PROFILE CONTAINER CONFIGS */
 
 .profile-container {
     height: 292px;
     width: 348px;
     background-color: var(--bg-cards);
-    margin: 40px auto 0 40px;
+    margin: 0 auto 0 40px;
     border-radius: 20px;
 }
 
@@ -144,8 +151,27 @@ body {
     font-weight: 400;
 }
 
-/* FOOTER */
-
-footer {
-    height: 58px;
+/* my-projects-container */
+.my-projects-container {
+    display: flex;
+    margin: 40px 40px 0 0;
+    height: 86px;
+    background-color: var(--bg-cards) ;
+    border-radius: 20px;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: space-between;
 }
+
+.my-projects-container h2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.my-projects-container a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+    padding-right: 30px;
+}
+
