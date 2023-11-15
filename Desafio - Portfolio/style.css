@@ -179,37 +179,50 @@ aside {
 
 .project {
     display: flex;
-    justify-content: space-between;
+    margin-top: 31px;
     color: var(--text-color);
 }
 
-.project div{
-    display: inline-block;
+.project div {
     background-color: var(--bg-cards);
-    width: 461px;
-    height: 186px;
-    margin: 30px 40px 0 0;
+    display: inline;
+    border: 1px solid red;
+    max-height: 186px;
+    margin-right: 30px;
     border-radius: 20px;
 }
 
-.project h2{
+.project div h2 {
     display: flex;
-    margin: 30px 0 auto 30px;
     font-size: 16px;
+    margin: 30px 20px 20px 30px;
 }
 
-.project img {
+.project div h2 img {
     margin-right: 16px;
 }
 
-.project p {
-    margin: 22px 0 auto 30px;
+.project div p, span {
     font-size: 14px;
 }
 
-.project span {
-    text-decoration: none;
-    display: flex;
-    margin: 27px auto 30px 30px;
-    
+.project div p {
+    margin: 0 10px 0 30px;
+    padding-right: 30px;
+}
+
+.project div span {
+    display: inline-block;
+    margin: 30px 0 30px 22px;
+    max-width: 150px;
+}
+
+.project div span img {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.eclipse-container {
+    display: inline-block;
+    padding: 0 0px 0 204px ;
 }
