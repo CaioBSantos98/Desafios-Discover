@@ -186,7 +186,6 @@ aside {
 .project div {
     background-color: var(--bg-cards);
     display: inline;
-    border: 1px solid red;
     max-height: 186px;
     margin-right: 30px;
     border-radius: 20px;
@@ -223,6 +222,5 @@ aside {
 }
 
 .eclipse-container {
-    display: inline-block;
-    padding: 0 0px 0 204px ;
+    text-align: end;
 }
