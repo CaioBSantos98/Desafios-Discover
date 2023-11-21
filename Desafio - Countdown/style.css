@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+header, footer{
+  height: 25vh;
+  background-color: #C8C8C8;
+  border: 2px solid black;
+}
+
+main {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+main div:not(:last-child) {
+  margin-right: 30px;
+}
+
+#cronometer-container h2 {
+  color: #6C63FF;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+#cronometer-container h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+  opacity: 50%;
+}
+
+#cronometer-container h3 span {
+  display: inline-block;
+  width: 55px;
+  margin: 0 6px 10px;
+  opacity: 40%;
+}
+
+#watch {
+  text-align: center;
+  margin: 0;
+  font-size: 45px;
+}
+
+#watch span {
+  display: inline-block;
+  width: 55px;
+}
+
+#cronometer-container p {
+  color: #9C9AB6;
+  margin: 10px;
+  font-size: 15px;
+}
+
+#cronometer-container button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background-color: #6C63FF;
+  font-size: 20px;
+  border-radius: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+#cronometer-container button:hover {
+  opacity: 40%;
+  transition: 0.5s;
+  border: none;
+}
+
+#logo-container img {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  padding: 40px 60px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+.modal-content h2 {
+  text-align: center;
+  color: #6C63FF;
+  margin: 15px 0;
+}
+
+.close {
+  margin-top: 15px;
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: #888;
+}
+
+.close:hover {
+  background-color: #6C63FF;
+  transition: .5s;
+}
+
+#submitForm button {
+  margin: 10% 24% 0 24%;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6C63FF;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#submitForm button:hover {
+  opacity: 40%;
+  transition: 0.5s;
+  border: none;
+}
