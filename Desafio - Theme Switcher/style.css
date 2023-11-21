@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+button {
+  margin: 400px 600px;
+  padding: 21.4px 48px;
+  border-radius: 59px;
+  background-color: black;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+#elipse {
+  position: absolute;
+  margin: 0;
+  padding: 17px 17px;
+  border-radius: 50%;
+  background-color: white;
+  top: 4.4px;
+  left: 4.4px;
+  animation: slide-back 0.1s ease-in-out;
+}
+
+#elipse.elipse-dark {
+  position: absolute;
+  margin: 0;
+  padding: 17px 17px;
+  border-radius: 50%;
+  background-color: white;
+  left: auto;
+  right: 4.4px;
+  top: 4.4px;
+  animation: slide-in 0.1s ease-in-out;
+}
+
+
+#star svg{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  top: 1.5px;
+  right: 1.5px;
+}
+
+.star-dark svg{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  top: 1.5px;
+  left: 1.5px;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+@keyframes slide-in {
+  from {
+    left: 4.4px;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 4.4px;
+  }
+}
