@@ -1,0 +1,159 @@
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 50%;
+  background: linear-gradient(to bottom, var(--blue) 50%, white 50%);
+}
+
+header {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+header h1, header h2 {
+  color: white;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-top: 100px;
+}
+
+header h2 {
+  display:inline-block;
+  max-width: 500px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.plans-container, .basic-container {
+  display: inline-block;
+  height: 390px;
+  width: 220px;
+  border-radius: 8px;
+  position: relative;
+  margin: 310px 20px 30px 0;
+  background-color: var(--page-background);
+}
+
+
+.plans-container h1 {
+  padding: 30px 0 20px 30px;
+  font-size: 16px;
+}
+
+.basic-container h1 {
+  background-color: var(--yellow);
+  color: #1D539E; 
+  padding: 30px 0 20px 30px;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+}
+
+.basic-container h1 span {
+  color: white;
+  font-size: 12px;
+  background-color: var(--blue);
+  padding: 8px 12px;
+  border-radius: 40px;
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+}
+
+
+
+.divider-line {
+  margin: 20px 30px;
+  border: 1px solid #EEE;
+  
+}
+
+.price-container {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.integer-container {
+  font-size: 25px;
+}
+
+.cents-container {
+  font-weight: bold;
+}
+
+.period-container {
+  color: #828799;
+}
+
+.plans-container h2, .basic-container h2 {
+  font-size: 10px;
+  font-weight: 400;
+  color: #828799;
+  margin-top: 10px;
+  margin-left: 31px;
+}
+
+.plans-container ul, .basic-container ul {
+  list-style: none;
+  color: #828799;
+  margin-left: 31px;
+}
+
+.plans-container li, .basic-container li {
+  display: flex;
+  margin-right: 30px;
+  font-size: 12px;
+}
+
+.plans-container svg, .basic-container svg {
+  margin-right: 5px;
+}
+
+.sign-button {
+  color: #1D539E;
+  border-radius: 10px;
+  border: 1px solid #1D539E;
+  cursor: pointer;
+  padding: 12px 0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+}
+
+.basic-sign-button {
+  color: white;
+  border-radius: 10px;
+  background-color: var(--blue);
+  border: 1px solid #1D539E;
+  cursor: pointer;
+  padding: 12px 0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+}
+
