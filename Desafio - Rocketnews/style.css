@@ -15,10 +15,21 @@
 }
 
 body {
-    background-color: var(--body-bg-color);    
+    background-color: var(--body-bg-color);
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
-header {
+.image-background img {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+
+header img{
     margin: 50px 0 92px 30px;
 }
 
@@ -30,12 +41,16 @@ h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     color: var(--title-color);
+    font-size: 24px;
+    margin-bottom: 8.56px;
 }
 
 h3 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     color: var(--text-color);
+    font-size: 14px;
+    margin-bottom: 9px;
 }
 
 h4 {
@@ -51,21 +66,26 @@ form {
     margin: 0 36px 50px;
 }
 
-fieldset {
-    border: none;
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 17px;
 }
 
-.green-container {
-    display: block;
-    background-color: var(--title-color);
-    height: 48px;
-    width: 5px;
+fieldset {
+    border: none;
+    position: relative;
 }
 
 input {
+    border-left: 5px solid var(--title-color);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
     display: inline;
     height: 48px;
-    width: 750px;
+    width: 798px;
+    padding-left: 20px;
 }
 
 ::placeholder {
@@ -74,13 +94,36 @@ input {
 }
 
 button {
+    border: none;
+    position: absolute;
     background-color: var(--bg-button-color);
+    cursor: pointer;
+}
+
+button img {
+    padding-top: 13.5px;
+    padding-bottom: 7.5px;;
+    padding-left: 9.5px;
+    padding-right: 11.5px;
 }
 
 
 a {
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
     margin-left: 36px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     color: var(--bg-button-color);
+}
+
+.readFirst {
+    position: relative;
+}
+
+.readFirst img {
+    position: absolute;
+    top: -5px;
+    left: 140px;
 }
