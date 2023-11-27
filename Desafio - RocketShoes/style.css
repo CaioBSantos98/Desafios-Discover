@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: #ECECED;
+  height: 100vh;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 39px;
+  left: 60px;
+  width: calc(100% - 120px);
+  height: 48px;
+}
+
+.logo-container {
+  display: inline-block;
+  height: 100%;
+  width: 3.93939393939394%;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2615/2615478.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-container ul {
+  position: absolute;
+  top: 25%;
+  left: 40px;
+  width: 100%;
+}
+
+.navbar-container li {
+  display: inline;
+  margin: 4.16666666666667%;
+}
+
+.navbar-container button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#search {
+  position: absolute;
+  right: 8.63636363636364%;
+  top: 3.125%;
+  height: 93.75%;
+  width: 16.66666666666667%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left 3px top 11px;
+  padding-left: 28px;
+  border: none;
+  outline: none;
+}
+
+#bagBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1250/1250555.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 0;
+  top: 9px;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 15.44%);
+}
+
+.price-container {
+  width: 37.5%;
+}
+
+.info-price-container {
+  margin: 45% 72px;
+}
+
+.info-price-container h2 {
+  font-size: 40px;
+}
+
+.info-price-container h3 {
+  font-size: 10.6px;
+  color: #9C9696;
+  margin-top: 14px;
+}
+
+.info-price-container h4 {
+  font-size: 26.6px;
+  margin-top: 14px;
+}
+
+#buyBtn {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 182px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 62.5%;
+  background-color: #C4C4C4;
+}
+
+.principal-tenis-container {
+  height: 75.55579868708972%; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.principal-tenis-container img {
+  height: 56%;
+  width: 66%;
+  margin: 150px 17% 0;
+  cursor: pointer;
+}
+
+.secondary-tenis-container {
+  display: flex;
+  height: calc(100% - 75.55579868708972%);
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0 18px;
+}
+
+.secondary-tenis-container img {
+  min-width: 170px;
+  max-width: 170px;
+  min-height: 130px;
+  max-height: 130px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}             
+
+#image1:focus, #image2:focus, #select-image:focus {
+  border-bottom: 5px solid red;
+}
+
+.footer-container {
+  display: flex;
+  height: 15.44%;
+}
+
+.video-container {
+  width: 17.36%;
+  height: 100%;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.social-container {
+  height: 100%;
+  width: 52.3%;
+}
+
+.social-container ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 11%;
+  font-weight: bold;
+}
+
+.social-container a {
+  cursor:pointer;
+}
+
+.explore-container {
+  display: flex;
+  height: 100%;
+  width: 30.34%;
+  background-color: black;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-container a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
