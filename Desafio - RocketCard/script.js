@@ -16,7 +16,7 @@ function changeBg () {
 
 let userData;
 
-const token = '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';
+const token = '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';
 const userName = 'CaioBSantos98';
 
 const apiUrl = `https://api.github.com/users/${userName}`;
